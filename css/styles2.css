@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+    margin: 0;
+    background-color: #5c8191;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #a7c0be;
+}
+
+header ::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding-top: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 50px;
+    font-size: 24px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: black
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+footer {
+    padding: 3px;
+    background-color: #A7C0BE;
+    text-align: center;
+}
+
+#footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #A7C0BE;
+    text-align: center;
+}
+
+.para1 {
+    font-weight: bold;
+    font-style: none;
+    text-transform: uppercase;
+}
+
+#footerLink {
+    font-style: none;
+    text-transform: uppercase;
+}
+
+.paras {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #D7D4CC;
+    margin-left: 16.2%; 
+    margin-right: 16.2%;
+}
+
+.button1{
+    display:block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+}
+    
+.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+    
+@media all and (max-width:30em){
+    a.button1{
+    display:block;
+    margin:0.4em auto;
+    }
+}
+
+#spotify {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ytube {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basspics {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basses {
+    display: inline-flex;
+  }
+
+.last {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    color: #D7D4CC;
+}
+
+#msform {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#downloadimg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-centred {
+    margin-left: auto;
+    margin-right: auto;
+}
