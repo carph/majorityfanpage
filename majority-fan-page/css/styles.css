@@ -1,0 +1,98 @@
+#header1 {
+    color: white;
+    background-image: linear-gradient(to top left, #D7D4CC, #9CA0A1);
+    font-family: "Comic Sans", sans-serif;
+    font-size: 60px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    z-index: 6;
+}
+
+#link1 {
+    position: fixed;
+    left: 56%;
+    top: 0;
+    font-size: 30px;
+    margin-top: 40px;
+    z-index: 6;
+    font-family: "Comic Sans", sans-serif;
+}
+
+#link2 {
+    position: fixed;
+    left: 66.92%;
+    top: 0;
+    font-size: 30px;
+    margin-top: 40px;
+    z-index: 6;
+    font-family: "Comic Sans", sans-serif;
+}
+
+#link3 {
+    position: fixed;
+    left: 77.33%;
+    top: 0;
+    font-size: 30px;
+    margin-top: 40px;
+    z-index: 6;
+    font-family: "Comic Sans", sans-serif;
+}
+
+#link4 {
+    position: fixed;
+    left: 87.75%;
+    top: 0;
+    font-size: 30px;
+    margin-top: 40px;
+    z-index: 6;
+    font-family: "Comic Sans", sans-serif;
+}
+
+#header1, #link1, #link2, #link3, #link4 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#spotify {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paras {
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    font-size: 30px;
+    color: #D7D4CC;
+    margin-left: 16.2%; 
+    margin-right: 16.2%;
+}
+
+.buttons {
+    margin-left: 46%;
+}
+
+#rectangle0 {
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: #A7C0BE;
+}
+
+footer {
+    padding: 3px;
+    background-color: #A7C0BE;
+    text-align: center;
+}
+
+.para1 {
+    font-weight: bold;
+}
